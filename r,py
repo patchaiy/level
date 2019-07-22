@@ -1,0 +1,5 @@
+Ni= int(input())
+l = list(int(x) for x in str(Ni))
+po = len(l)
+fin = list(map(lambda x:x**po,l))
+print(sum(fin))
