@@ -1,24 +1,24 @@
 from itertools import permutations
-iN=input()
-k=permutations(Ni)
+Nn=input()
+ki=permutations(Nn)
 l=[]
 m=(-1)
 a="abcdefghijklmnopqrstuvwxyz"
-if a==Ni:
-  print(Ni)
-elif Ni==a[::-1]:
+if a==Nn:
+  print(Nn)
+elif Nn==a[::-1]:
   print("-1")
 else:
-    Ni=tuple(Ni)
-    for i in k:
+    Nn=tuple(Nn)
+    for i in ki:
         l.append(i)
     for i in l:
-        if i>Ni:
+        if i>Nn:
             m=i
             break
 
     for i in l:
-        if i>Ni and i<m:
+        if i>Nn and i<m:
             m=i
 
     if m==-1:
